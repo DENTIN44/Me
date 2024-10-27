@@ -10973,9 +10973,10 @@ section.resume-section .resume-section-content {
 }
 
 .one-quarter {
-  display: flex; /* Make the .one-quarter itself a flex container */
-margin-top: 30px;
+position: absolute;
+top: 20px;
 padding-bottom: 20px;
+left: 20px;
 }
 
 body.dark .subheadin {
@@ -11052,7 +11053,7 @@ body.dark li {
 }
 
 .checkbox:checked + .label .ball {
-  transform: translateX(14px);
+  transform: translateX(13px);
 }
 
 .fa-moon {
@@ -11067,7 +11068,6 @@ body.dark li {
 
 .navbar .collapse {
   transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
-  max-height: 0; /* Start closed */
   opacity: 1;    /* Start hidden */
 }
 
