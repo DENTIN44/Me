@@ -10975,7 +10975,7 @@ section.resume-section .resume-section-content {
 .one-quarter {
 position: absolute;
 top: 20px;
-padding-bottom: 20px;
+padding-bottom: 0px;
 left: 20px;
 }
 
